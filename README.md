@@ -22,7 +22,7 @@
 
 ##### MS Code
 
-> HHKB
+> HHKB Pro2
 
 ### Vim 安装
 
