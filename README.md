@@ -63,6 +63,8 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 ### Vim 中文帮助文档安装
 
+和其他绝大多数软件一样，Vim 自带帮助文档。
+
 ### Vim 配置文件
 
 ### Vim 基本操作
