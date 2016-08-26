@@ -63,7 +63,7 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 ### Vim 中文帮助文档安装
 
-和其他绝大多数软件一样，Vim 自带帮助文档。在 Vim 中输入：
+和其他绝大多数软件一样，Vim 自带帮助文档。Vim 的帮助文档非常详细，全面的介绍了 Vim 的使用方式，以至于大部分内容你可能在平时的使用过程中都用不到，或者说无法牢记并活用。这也是就是本书的意义，帮助你更简单更有效的上手 Vim，并逐步提高。要查看帮助，在 Vim 中输入：
 
 ```
 :help
@@ -74,6 +74,43 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 ```
 :help a
 ```
+
+默认情况下，帮助文档是英文版，如果你的英文水平对于读懂这些说明没问题，那么请跳过这一节。如果你想查看中文版本，请跟我继续，下面将带领大家安装中文版的说明文档。
+
+#### Windows
+
+#### Mac OS
+
+安装之前，首先需要下载帮助文档的中文版本，可以从这里下载：[http://vimcdoc.sourceforge.net](http://vimcdoc.sourceforge.net)
+
+![屏幕快照 2016-08-26 23.21.51.png](http://ww2.sinaimg.cn/large/006y8lVagw1f77k97qd56j30ou06qtax.jpg)
+
+这里我们选择下载压缩包版本，点击上图中的 `tarball` 下载，下载完成后解压：
+
+![屏幕快照 2016-08-26 23.26.34.png](http://ww3.sinaimg.cn/large/006y8lVagw1f77kdw7g2yj30oi0f8429.jpg)
+
+将其中的 `doc` 目录拷贝到用户主目录的 `.vim` 目录下：
+
+```bash
+$ cd vimcdoc-1.9.0
+$ cp -r doc ~/.vim/
+```
+
+拷贝完成之后，再打开 Vim，输入 `:help` 看看，帮助文档是不是已经变成中文了？
+
+> 这里只是安装了中文版本的帮助文档，英文文档并没有被覆盖或者丢失，可以在 Vim 中输入下面的命令来将帮助文档切换回英文：
+>
+> ```
+> :set helplang=en
+> ```
+>
+> 同样，想再切换回中文可以输入：
+>
+> ```
+> :set helplang=cn
+> ```
+
+
 
 ### Vim 配置文件
 
